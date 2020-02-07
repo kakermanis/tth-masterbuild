@@ -1,0 +1,6 @@
+#Mapping values
+#Mon Sep 09 17:24:44 AEST 2019
+tth_Trip__c=tth_Trip__r\:External_ID__c
+External_ID__c=External_ID__c
+tth_Party_Member__c=tth_Party_Member__r\:External_ID__c
+tth_Account__c=tth_Account__r\:External_ID__c

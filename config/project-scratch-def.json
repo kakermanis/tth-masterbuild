@@ -1,0 +1,55 @@
+{
+  "orgName": "TTH IDO - Template",
+  "edition": "Developer",
+  "features": [
+    "PersonAccounts",
+    "ServiceCloud",
+    "LightningServiceConsole",
+    "Chatbot",
+    "LiveMessage",
+    "Knowledge",
+    "Communities",
+    "SiteDotCom",
+    "Sites",
+    "WavePlatform",
+    "InsightsPlatform"
+  ],
+  "settings": {
+      "botSettings": {
+          "enableBots": true
+      },
+      "experienceBundleSettings": {
+          "enableExperienceBundleMetadata": true
+      },
+      "liveMessageSettings": {
+          "enableLiveMessage": true
+      },
+      "liveAgentSettings": {
+          "enableLiveAgent": true
+      },
+      "knowledgeSettings": {
+          "enableKnowledge": true,
+          "enableLightningKnowledge": true
+      },
+      "omniChannelSettings": {
+          "enableOmniChannel": true
+      },
+      "communitiesSettings": {
+          "enableNetworksEnabled": true
+      },
+      "lightningExperienceSettings": {
+          "enableS1DesktopEnabled": true
+      },
+      "pathAssistantSettings": {
+          "pathAssistantEnabled": true
+      },
+      "mobileSettings": {
+          "enableS1EncryptedStoragePref2": false
+      },
+      "securitySettings": {
+          "passwordPolicies": {
+              "enableSetPasswordInApi": true
+          }
+      }
+  }
+}

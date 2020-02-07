@@ -1,0 +1,34 @@
+{
+  "records": [{
+    "attributes": {
+      "type": "Account",
+      "referenceId": "AccountRef1"
+    },
+    "FirstName": "Helen",
+    "LastName": "Young",
+    "tth_Loyalty_Status__pc": "Bronze",
+    "tth_Loyalty_Program_Number__pc": "1234567890",
+    "tth_Next_Loyalty_Level_Threshold__pc": 30000,
+    "tth_Base_Loyalty_Points__pc": 50000,
+    "Cust360_Id__pc": "9595959595-A",
+    "Cust360_Metric1__pc": "Bronze",
+    "Cust360_Metric2__pc": "845",
+    "Cust360_CSAT__pc": "34",
+    "Cust360_ChurnRisk__pc":"35",
+    "External_ID__c":"Paccount.003",
+    "Cust360_Contact_Picture_URL__pc": "/resource/tth_Helen360Photo"
+  }, {
+    "attributes": {
+      "type": "Account",
+      "referenceId": "AccountRef2"
+    },
+    "FirstName": "Simon",
+    "LastName": "Bailey"
+  }, {
+    "attributes": {
+      "type": "Account",
+      "referenceId": "AccountRef3"
+    },
+    "Name": "Arnolds Drive In"
+  }]
+}

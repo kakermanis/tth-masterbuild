@@ -1,0 +1,27 @@
+{
+  "records": [{
+    "attributes": {
+      "type": "tth_Loyalty_Event__c",
+      "referenceId": "LoyaltyRef1"
+    },
+    "tth_Amount__c": -100000,
+    "tth_Type__c": "Points Redemption",
+    "tth_Source__c": "Shopping",
+    "tth_Event_Date__c": "2019-05-27",
+    "tth_Account__c": "@AccountRef1",
+    "tth_Trip__c": "@TripRef1",
+    "External_ID__c":"tthLoyalty.001"
+  }, {
+    "attributes": {
+      "type": "tth_Loyalty_Event__c",
+      "referenceId": "LoyaltyRef2"
+    },
+    "tth_Amount__c": 5000,
+    "tth_Type__c": "Bonus Points",
+    "tth_Source__c": "Standard Travel",
+    "tth_Event_Date__c": "2019-05-27",
+    "tth_Account__c": "@AccountRef1",
+    "tth_Trip__c": "@TripRef1",
+    "External_ID__c":"tthLoyalty.002"
+  }]
+}

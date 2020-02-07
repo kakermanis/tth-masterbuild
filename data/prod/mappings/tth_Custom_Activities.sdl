@@ -1,0 +1,13 @@
+#Mapping values
+#Mon Sep 09 18:06:40 AEST 2019
+External_ID__c=External_ID__c
+ORDER__C=order__c
+TIME__C=time__c
+tth_Trip__c=tth_Trip__r\:External_ID__c
+DAYS_AGO__C=days_ago__c
+ICON_COLOR__C=Icon_Color__c
+tth_Account__c=tth_Account__r\:External_ID__c
+Contact__c=Contact__r\:External_ID__c
+NAME=Name
+ICON__C=icon__c
+MESSAGE__C=message__c

@@ -1,0 +1,24 @@
+#Mapping values
+#Tue Sep 10 14:18:26 AEST 2019
+Account=External_ID__c
+BillingCity=BillingCity
+Name=Name
+Industry=Industry
+AccountSource=AccountSource
+BillingPostalCode=BillingPostalCode
+ShippingStreet=ShippingStreet
+ShippingPostalCode=ShippingPostalCode
+ShippingState=ShippingState
+SicDesc=SicDesc
+AnnualRevenue=AnnualRevenue
+BillingState=BillingState
+Description=Description
+Website=Website
+NumberOfEmployees=NumberOfEmployees
+Phone=Phone
+ShippingCountry=ShippingCountry
+ShippingCity=ShippingCity
+Type=Type
+BillingCountry=BillingCountry
+BillingStreet=BillingStreet
+Fax=Fax

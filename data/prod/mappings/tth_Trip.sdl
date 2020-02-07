@@ -1,0 +1,8 @@
+TTH_NATURE_OF_TRIP__C=tth_Nature_of_Trip__c
+External_ID__c=External_ID__c
+tth_Account__c=tth_Account__r\:External_ID__c
+TTH_PRIMARY_TRAVELER__C=tth_Primary_Traveler__r\:External_ID__c
+TTH_TRIP_START__C=tth_Trip_Start__c
+TTH_TRIP_DESTINATION__C=tth_Trip_Destination__c
+TTH_TRIP_END__C=tth_Trip_End__c
+TTH_TRIP_ORIGIN__C=tth_Trip_Origin__c

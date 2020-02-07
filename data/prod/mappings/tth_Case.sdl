@@ -1,0 +1,12 @@
+#Mapping values
+#Tue Sep 10 14:09:09 AEST 2019
+Origin=Origin
+Status=Status
+Account=Account\:External_ID__c
+Description=Description
+Priority=Priority
+Reason=Reason
+Subject=Subject
+Case=External_ID__c
+Contact=Contact\:External_ID__c
+Type=Type

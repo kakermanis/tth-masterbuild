@@ -1,0 +1,4 @@
+
+sfdx force:data:soql:query -u SDO -q "select external_ID__c, subject, Contact.FirstName, Contact.External_ID__c from Case where External_id__c != null AND Contact.FirstName = 'Lauren' Order by External_ID__c"
+
+sfdx force:data:soql:query -u SDO -q "SELECT CaseNumber, External_ID__c, Subject, Description FROM CASE where Contact.External_ID__c = 'PAccount.011' Order By External_id__c"

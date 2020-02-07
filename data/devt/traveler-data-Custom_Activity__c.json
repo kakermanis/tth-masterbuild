@@ -1,0 +1,48 @@
+{
+  "records": [{
+    "attributes": {
+      "type": "Custom_Activity__c",
+      "referenceId": "Custom_Activity__cRef1"
+    },
+    "Name": "Bot Conversation",
+    "days_ago__c": 0,
+    "icon__c": "standard:bot",
+    "time__c": "10:35am",
+    "tth_Account__c": "@AccountRef1",
+    "External_ID__c":"custActivity.006"
+  }, {
+    "attributes": {
+      "type": "Custom_Activity__c",
+      "referenceId": "Custom_Activity__cRef2"
+    },
+    "Name": "Travel Purchase",
+    "days_ago__c": 3,
+    "icon__c": "standard:opportunity",
+    "time__c": "2:43pm",
+    "tth_Account__c": "@AccountRef1",
+    "External_ID__c":"custActivity.007"
+  }, {
+    "attributes": {
+      "type": "Custom_Activity__c",
+      "referenceId": "Custom_Activity__cRef3"
+    },
+    "Name": "Pinterest Activity",
+    "days_ago__c": 10,
+    "icon__c": "custom:custom38",
+    "Icon_Color__c": "#C92228",
+    "time__c": "9:35am",
+    "tth_Account__c": "@AccountRef1",
+    "External_ID__c":"custActivity.008"
+  }, {
+    "attributes": {
+      "type": "Custom_Activity__c",
+      "referenceId": "Custom_Activity__cRef4"
+    },
+    "Name": "Targeted Campaign",
+    "days_ago__c": 8,
+    "icon__c": "standard:campaign",
+    "time__c": "5:35pm",
+    "tth_Account__c": "@AccountRef1",
+    "External_ID__c":"custActivity.009"
+  }]
+}

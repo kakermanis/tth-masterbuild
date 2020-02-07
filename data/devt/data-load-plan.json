@@ -1,0 +1,53 @@
+[{
+  "sobject": "Account",
+  "saveRefs": true,
+  "files": [
+    "Accounts.json"
+  ]
+}, {
+  "sobject": "Contact",
+  "saveRefs": true,
+  "resolveRefs": true,
+  "files": [
+    "Contacts.json"
+  ]
+}, {
+  "sobject": "tth_Trip__c",
+  "saveRefs": true,
+  "resolveRefs": true,
+  "files": [
+    "tth_Trip__cs.json"
+  ]
+}, {
+  "sobject": "tth_Loyalty_Event__c",
+  "resolveRefs": true,
+  "files": [
+    "tth_Loyalty_Event__cs.json"
+  ]
+}, {
+  "sobject": "tth_Party__c",
+  "resolveRefs": true,
+  "files": [
+    "tth_Party__cs.json"
+  ]
+}, {
+  "sobject": "tth_Baggage__c",
+  "resolveRefs": true,
+  "files": [
+    "tth_Baggage__cs.json"
+  ]
+}, {
+  "sobject": "tth_Booking__c",
+  "resolveRefs": true,
+  "files": [
+    "tth_Booking__cs.json"
+  ]
+}, {
+  "sobject": "Custom_Activity__c",
+  "resolveRefs": true,
+  "files": [
+    "trip-data-Custom_Activity__c.json",
+    "traveler-data-Custom_Activity__c.json",
+    "Custom_Activity__cs.json"
+  ]
+}]

@@ -1,0 +1,10 @@
+[{
+  "sobject": "Custom_Activity__c",
+  "saveRefs": true,
+  "resolveRefs": true,
+  "files": [
+    "Custom_Activity__cs.json",
+    "traveler-data-Custom_Activity__c.json",
+    "trip-data-Custom_Activity__c.json"
+  ]
+}]

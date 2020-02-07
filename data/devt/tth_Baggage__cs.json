@@ -1,0 +1,27 @@
+{
+  "records": [{
+    "attributes": {
+      "type": "tth_Baggage__c",
+      "referenceId": "BaggageRef1"
+    },
+    "tth_Account__c": "@AccountRef1",
+    "tth_Trip__c": "@TripRef1",
+    "tth_Color__c": "Black",
+    "tth_Size__c": "Large",
+    "tth_Status__c": "With Customer",
+    "tth_Type__c": "Hard Sided",
+    "External_ID__c":"tthBaggage.001"
+  }, {
+    "attributes": {
+      "type": "tth_Baggage__c",
+      "referenceId": "BaggageRef2"
+    },
+    "tth_Account__c": "@AccountRef2",
+    "tth_Trip__c": "@TripRef1",
+    "tth_Color__c": "Black",
+    "tth_Size__c": "Medium",
+    "tth_Status__c": "With Customer",
+    "tth_Type__c": "Hard Shell",
+    "External_ID__c":"tthBaggage.002"
+  }]
+}

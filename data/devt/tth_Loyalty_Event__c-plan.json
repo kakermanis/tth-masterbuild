@@ -1,0 +1,8 @@
+[{
+  "sobject": "tth_Loyalty_Event__c",
+  "saveRefs": true,
+  "resolveRefs": true,
+  "files": [
+    "tth_Loyalty_Event__cs.json"
+  ]
+}]

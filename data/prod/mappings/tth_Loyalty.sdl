@@ -1,0 +1,11 @@
+#Mapping values
+#Mon Sep 09 17:50:51 AEST 2019
+TTH_SOURCE__C=tth_Source__c
+TTH_ACCOUNT__C=tth_Account__r\:External_ID__c
+TTH_Traveler__c=tth_traveler__r\:External_ID__c
+TTH_EVENT_DATE__C=tth_Event_Date__c
+TTH_NOTE__C=tth_Note__c
+TTH_TRIP__C=tth_Trip__r\:External_ID__c
+EXTERNAL_ID__C=External_ID__c
+TTH_AMOUNT__C=tth_Amount__c
+TTH_TYPE__C=tth_Type__c

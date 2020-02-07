@@ -1,0 +1,12 @@
+#Mapping values
+#Tue Sep 10 10:56:24 AEST 2019
+Status=Status
+Description=Description
+ExpectedResponse=ExpectedResponse
+ActualCost=ActualCost
+Name=Name
+NumberSent=NumberSent
+Type=Type
+Campaign=External_ID__c
+ExpectedRevenue=ExpectedRevenue
+BudgetedCost=BudgetedCost

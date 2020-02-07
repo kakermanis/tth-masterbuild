@@ -1,0 +1,38 @@
+{
+  "records": [{
+    "attributes": {
+      "type": "tth_Trip__c",
+      "referenceId": "TripRef1"
+    },
+    "tth_Trip_Destination__c": "SFO",
+    "tth_Trip_Origin__c": "OOL",
+    "tth_Trip_Start__c": "2019-12-01",
+    "tth_Trip_End__c": "2019-12-31",
+    "External_ID__c":"tthTrip.001",
+    "tth_Account__c": "@AccountRef1"
+  }, {
+    "attributes": {
+      "type": "tth_Trip__c",
+      "referenceId": "TripRef2"
+    },
+    "tth_Trip_Destination__c": "SYD",
+    "tth_Trip_Origin__c": "OOL",
+    "tth_Trip_Start__c": "2019-07-04",
+    "tth_Trip_End__c": "2019-07-12",
+    "tth_Nature_of_Trip__c": "Business",
+    "External_ID__c":"tthTrip.002",
+    "tth_Account__c": "@AccountRef1"
+  }, {
+    "attributes": {
+      "type": "tth_Trip__c",
+      "referenceId": "TripRef3"
+    },
+    "tth_Trip_Destination__c": "SFO",
+    "tth_Trip_Origin__c": "LHR",
+    "tth_Trip_Start__c": "2020-01-01",
+    "tth_Trip_End__c": "2020-03-03",
+    "tth_Nature_of_Trip__c": "Business",
+    "External_ID__c":"tthTrip.003",
+    "tth_Primary_Traveler__c": "@ContactRef1"
+  }]
+}

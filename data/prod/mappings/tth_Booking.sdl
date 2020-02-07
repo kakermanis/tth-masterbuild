@@ -1,0 +1,17 @@
+#Mapping values
+#Mon Sep 09 15:27:38 AEST 2019
+EXTERNAL_ID__C=External_ID__c
+tth_Trip__c=tth_Trip__r\:External_ID__c
+tth_Account__c=tth_Account__r\:External_ID__c
+tth_Traveler__c=tth_Traveler__r\:External_ID__c
+TTH_BOOKING_START__C=tth_Booking_Start__c
+TTH_ROOM_TYPE__C=tth_Room_Type__c
+TTH_FARE_BASIS_CODE__C=tth_Fare_Basis_Code__c
+TTH_BOOKING_TYPE__C=tth_Booking_Type__c
+TTH_ALLOCATED_SEAT__C=tth_Allocated_Seat__c
+TTH_FLIGHT_NUMBER__C=tth_Flight_Number__c
+TTH_BOOKING_END__C=tth_Booking_End__c
+TTH_AMENITIES_PL__C=tth_Amenities_pl__c
+TTH_STATUS__C=tth_Status__c
+TTH_TRAVEL_CLASS__C=tth_Travel_Class__c
+TTH_ALLOCATED_ROOM__C=tth_Allocated_Room__c

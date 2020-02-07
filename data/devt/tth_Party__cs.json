@@ -1,0 +1,17 @@
+{
+  "records": [{
+    "attributes": {
+      "type": "tth_Party__c",
+      "referenceId": "PartyRef1"
+    },
+    "tth_Account__c": "@AccountRef1",
+    "tth_Trip__c": "@TripRef1"
+  }, {
+    "attributes": {
+      "type": "tth_Party__c",
+      "referenceId": "PartyRef2"
+    },
+    "tth_Account__c": "@AccountRef2",
+    "tth_Trip__c": "@TripRef1"
+  }]
+}

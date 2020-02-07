@@ -1,0 +1,90 @@
+{
+  "records": [{
+    "attributes": {
+      "type": "tth_Booking__c",
+      "referenceId": "BookingRef1"
+    },
+    "tth_Allocated_Room__c": "1823",
+    "tth_Booking_End__c": "2019-12-30",
+    "tth_Booking_Start__c": "2019-12-01",
+    "tth_Booking_Type__c": "Hotel",
+    "tth_Room_Type__c": "King",
+    "tth_Status__c": "Confirmed",
+    "tth_Travel_Class__c": "Economy",
+    "tth_Amenities_pl__c": "High Floor;Club Access;Gym;Pool",
+    "tth_account__c": "@AccountRef1",
+    "tth_Trip__c": "@TripRef1",
+    "External_ID__c":"tthBooking.001"
+  }, {
+    "attributes": {
+      "type": "tth_Booking__c",
+      "referenceId": "BookingRef2"
+    },
+    "tth_Allocated_Seat__c": "14A",
+    "tth_Booking_End__c": "2019-12-01",
+    "tth_Booking_Start__c": "2019-12-31",
+    "tth_Booking_Type__c": "Flight",
+    "tth_Fare_Basis_Code__c": "K",
+    "tth_Flight_Number__c": "FA1965",
+    "tth_Status__c": "Confirmed",
+    "tth_Travel_Class__c": "Economy",
+    "tth_Amenities_pl__c": "Window Seat;Powered Seat;Meals;Wifi",
+    "tth_account__c": "@AccountRef1",
+    "tth_Trip__c": "@TripRef1",
+    "External_ID__c":"tthBooking.002"
+  }, {
+    "attributes": {
+      "type": "tth_Booking__c",
+      "referenceId": "BookingRef3"
+    },
+    "tth_Allocated_Room__c": null,
+    "tth_Allocated_Seat__c": "3A",
+    "tth_Amenities_pl__c": "Aisle Seat;Powered Seat;Exit Row;First Class;Meals;Wifi;USB Connector",
+    "tth_Booking_End__c": "2020-03-27",
+    "tth_Booking_Start__c": "2020-01-13",
+    "tth_Booking_Type__c": "Flight",
+    "tth_Fare_Basis_Code__c": "U",
+    "tth_Room_Type__c": null,
+    "tth_Status__c": "Confirmed",
+    "tth_Travel_Class__c": "First",
+    "tth_Traveler__c": "@ContactRef1",
+    "tth_Trip__c": "@TripRef3",
+    "External_ID__c":"tthBooking.003"
+  }, {
+    "attributes": {
+      "type": "tth_Booking__c",
+      "referenceId": "BookingRef4"
+    },
+    "tth_Allocated_Room__c": "1925",
+    "tth_Allocated_Seat__c": null,
+    "tth_Amenities_pl__c": "High Floor;Views;Club Access;Gym;Pool;Mini bar;Wifi",
+    "tth_Booking_End__c": "2020-03-27",
+    "tth_Booking_Start__c": "2020-01-13",
+    "tth_Booking_Type__c": "Hotel",
+    "tth_Fare_Basis_Code__c": null,
+    "tth_Room_Type__c": "Master Suite",
+    "tth_Status__c": "Confirmed",
+    "tth_Travel_Class__c": "Economy",
+    "tth_Traveler__c": "@ContactRef1",
+    "tth_Trip__c": "@TripRef3",
+    "External_ID__c":"tthBooking.004"
+  }, {
+    "attributes": {
+      "type": "tth_Booking__c",
+      "referenceId": "BookingRef5"
+    },
+    "tth_Allocated_Room__c": null,
+    "tth_Allocated_Seat__c": null,
+    "tth_Amenities_pl__c": "Unlimited Mileage;Fuel Option;In Terminal Pick up;Air Conditioning;Reversing Camera",
+    "tth_Booking_End__c": "2020-03-27",
+    "tth_Booking_Start__c": "2020-01-13",
+    "tth_Booking_Type__c": "Car",
+    "tth_Fare_Basis_Code__c": null,
+    "tth_Room_Type__c": null,
+    "tth_Status__c": "Confirmed",
+    "tth_Travel_Class__c": "Economy",
+    "tth_Traveler__c": "@ContactRef1",
+    "tth_Trip__c": "@TripRef3",
+    "External_ID__c":"tthBooking.005"
+  }]
+}

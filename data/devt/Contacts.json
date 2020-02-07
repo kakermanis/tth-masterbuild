@@ -1,0 +1,18 @@
+{
+  "records": [{
+    "attributes": {
+      "type": "Contact",
+      "referenceId": "ContactRef1"
+    },
+    "FirstName": "Richard",
+    "LastName": "Cunningham",
+    "AccountId": "@AccountRef3",
+    "Email": "kakermanis+richie@salesforce.com",
+    "MobilePhone": "0424074565",
+    "Cust360_Id__c": "2345-2345",
+    "Cust360_Metric1__c": "Silver",
+    "Cust360_Metric2__c": "675",
+    "Cust360_CSAT__c": 60,
+    "Cust360_Contact_Picture_URL__c": "http://3.bp.blogspot.com/-lY2ZMvuQKOE/Tta9oX7_xvI/AAAAAAAAED4/aDuEryMXvto/s1600/ron-howard-in-happy-days.jpg"
+  }]
+}

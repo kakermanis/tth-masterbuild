@@ -1,0 +1,8 @@
+[{
+  "sobject": "tth_Booking__c",
+  "saveRefs": true,
+  "resolveRefs": true,
+  "files": [
+    "tth_Booking__cs.json"
+  ]
+}]

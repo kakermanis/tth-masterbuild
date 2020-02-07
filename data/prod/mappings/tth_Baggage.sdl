@@ -1,0 +1,10 @@
+#Mapping values
+#Mon Sep 09 18:00:26 AEST 2019
+TTH_TRAVELLER__C=tth_Traveller__r\:External_ID__c
+TTH_ACCOUNT__C=tth_Account__r\:External_ID__c
+TTH_TRIP__C=tth_Trip__r\:External_ID__c
+EXTERNAL_ID__C=External_ID__c
+TTH_SIZE__C=tth_Size__c
+TTH_STATUS__C=tth_Status__c
+TTH_TYPE__C=tth_Type__c
+TTH_COLOR__C=tth_Color__c

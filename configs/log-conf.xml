@@ -32,8 +32,6 @@
     <root>
         <priority value ="info" />
         <appender-ref ref="fileAppender" />
-        <!--
         <appender-ref ref="STDOUT" />
-      -->
     </root>
 </log4j:configuration>

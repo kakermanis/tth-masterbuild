@@ -1,0 +1,9 @@
+External_ID__c,TTH_ACCOUNT__C,TTH_NATURE_OF_TRIP__C,TTH_PRIMARY_TRAVELER__C,TTH_TRIP_DESTINATION__C,TTH_TRIP_END__C,TTH_TRIP_ORIGIN__C,TTH_TRIP_START__C
+tthTrip.001,Paccount.003,Personal,,Bangkok,1/5/2020,Los Angeles,12/20/2019
+tthTrip.002,Paccount.002,Business,,San Francisco,7/11/2019,Los Angeles,7/3/2019
+tthTrip.003,,Business,Contact.001,New York,4/12/2019,San Francisco,4/8/2019
+tthTrip.004,,Business,Contact.001,New York,5/24/2019,San Francisco,5/20/2019
+tthTrip.005,,Business,Contact.001,Chicago,7/15/2019,San Francisco,7/11/2019
+tthTrip.006,,Business,Contact.001,Houston,7/31/2019,San Francisco,7/22/2019
+tthTrip.007,,Personal,Contact.001,Hawaii,8/23/2019,San Francisco,8/5/2019
+tthTrip.008,,Mixed,Contact.001,Toronto,9/16/2019,San Francisco,8/30/2019

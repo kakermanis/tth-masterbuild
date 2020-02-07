@@ -1,0 +1,402 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef1"
+            },
+            "Name": "Keiritas Yoga & Diving",
+            "Description": "Boat Tours & Water Sports, Classes & Workshops, Spas & Wellness, Outdoor Activities, Tours",
+            "AcceptanceLabel": "Sure, sounds like fun",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Book_Local_Attraction",
+            "Category__c": "Activities",
+            "tth_Address__c": "Ko Lipe, Thailand",
+            "tth_Location__c": "Bangkok"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef2"
+            },
+            "Name": "Madame Fu",
+            "Description": "Mrs Pound-inspired restaurant with a fictional story behind its concept",
+            "AcceptanceLabel": "Make a reservation for me",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Book_Restaurant",
+            "Category__c": "Restaurant",
+            "tth_Address__c": "Shop 03, 3/F, Tai Kwun 10 Hollywood Road Central Hong Kong",
+            "tth_Location__c": "Bangkok"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef3"
+            },
+            "Name": "Two Sea Tour",
+            "Description": "Outdoor Activities, Boat Tours & Water Sports, Tours",
+            "AcceptanceLabel": "Sure, sounds like fun",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Book_Local_Attraction",
+            "Category__c": "Activities",
+            "tth_Address__c": "Thalang District, Thailand",
+            "tth_Location__c": "Bangkok"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef4"
+            },
+            "Name": "Ser Wong Fun",
+            "Description": "One of the oldest and greatest Cantonese restaurants in the city",
+            "AcceptanceLabel": "Make a reservation for me",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Book_Restaurant",
+            "Category__c": "Restaurant",
+            "tth_Address__c": "30 Cochrane St Central Hong Kong",
+            "tth_Location__c": "Bangkok"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef5"
+            },
+            "Name": "Ho Lee Fook",
+            "Description": "Daring Chinese fusion food that’s definitely not for purists",
+            "AcceptanceLabel": "Make a reservation for me",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Book_Restaurant",
+            "Category__c": "Restaurant",
+            "tth_Address__c": "1 Elgin Street Central Hong Kong",
+            "tth_Location__c": "Bangkok"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef6"
+            },
+            "Name": "Thalassa Tour",
+            "Description": "Boat Tours & Water Sports, Outdoor Activities, Tours",
+            "AcceptanceLabel": "Sure, sounds like fun",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Book_Local_Attraction",
+            "Category__c": "Activities",
+            "tth_Address__c": "Ao Nang, Thailand",
+            "tth_Location__c": "Bangkok"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef7"
+            },
+            "Name": "Current Deals",
+            "Description": "Check out our current travel deals",
+            "AcceptanceLabel": "Show me more",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Current_Deals",
+            "tth_Trip_Stage__c": "PreTrip,PostTrip",
+            "tth_Trip_Sub_Stage__c": "No Future Booking"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef8"
+            },
+            "Name": "Food discount",
+            "Description": "Get a discount on food",
+            "AcceptanceLabel": "I like to save $$$",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Food_Discount",
+            "tth_Trip_Stage__c": "OnTrip",
+            "tth_Trip_Sub_Stage__c": "Smooth Travels"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef9"
+            },
+            "Name": "Find Local Attractions",
+            "Description": "Looking for something to do one you get there?",
+            "AcceptanceLabel": "Yes please",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Local_Attractions",
+            "tth_Trip_Stage__c": "PreTrip,OnTrip",
+            "tth_Trip_Sub_Stage__c": "Has Future Booking,Smooth Travels"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef10"
+            },
+            "Name": "Install Mobile App",
+            "Description": "Take us with you anywhere!",
+            "AcceptanceLabel": "Tell me how",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Mobile_App_Installation",
+            "Category__c": "MobileApp",
+            "Ranking__c": 10
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef11"
+            },
+            "Name": "Rebook Transport - Disruption",
+            "Description": "Reschedule transport due to travel disruption",
+            "AcceptanceLabel": "Yes, please help me",
+            "RejectionLabel": "No, I will rebook myself",
+            "ActionReference": "Rebook_Transport",
+            "tth_Trip_Stage__c": "OnTrip",
+            "tth_Trip_Sub_Stage__c": "Experiencing Disruption",
+            "Category__c": "RebookTransport",
+            "Ranking__c": 5
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef12"
+            },
+            "Name": "Family & Friends Discount",
+            "Description": "Tell your friends and family and get a discount",
+            "AcceptanceLabel": "Sure!",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Referral_Code",
+            "tth_Trip_Stage__c": "PostTrip",
+            "tth_Trip_Sub_Stage__c": "Positive Sentiment"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef13"
+            },
+            "Name": "Recommend Restaurant",
+            "Description": "Recommend a local place to eat",
+            "AcceptanceLabel": "Yes please",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Suggestion_Restaurant",
+            "tth_Trip_Stage__c": "OnTrip",
+            "tth_Trip_Sub_Stage__c": "Experiencing Disruption,Smooth Travels"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef14"
+            },
+            "Name": "Travel Profile",
+            "Description": "Complete your traveler profile and we can suggest more tailored experiences",
+            "AcceptanceLabel": "Complete Profile",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "tth_Complete_Traveler_Profile",
+            "Category__c": "ProfileInfo",
+            "Ranking__c": 10
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef15"
+            },
+            "Name": "Early Check-in",
+            "Description": "Request an Early Check-in",
+            "AcceptanceLabel": "Yes please",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "tth_Early_Check_in",
+            "tth_Trip_Stage__c": "PreTrip,OnTrip",
+            "tth_Trip_Sub_Stage__c": "Has Future Booking,Smooth Travels"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef16"
+            },
+            "Name": "Luggage Partners",
+            "Description": "Too much stuff? Check out our luggage partner's deals",
+            "AcceptanceLabel": "Show me",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "tth_Luggage_Partner",
+            "tth_Trip_Stage__c": "PreTrip",
+            "tth_Trip_Sub_Stage__c": "Has Future Booking"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef17"
+            },
+            "Name": "Rebook Accomodation - Disruption",
+            "Description": "Reschedule accomodation due to travel disruption",
+            "AcceptanceLabel": "Yes, please help me",
+            "RejectionLabel": "No, I will rebook myself",
+            "ActionReference": "tth_Rebook_Accomodation",
+            "tth_Trip_Stage__c": "OnTrip",
+            "tth_Trip_Sub_Stage__c": "Experiencing Disruption",
+            "Category__c": "RebookAccomodation",
+            "Ranking__c": 3
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef18"
+            },
+            "Name": "Rebook Flight - Disruption",
+            "Description": "Reschedule a flight due to travel disruption",
+            "AcceptanceLabel": "Yes, please help me",
+            "RejectionLabel": "No, I will rebook myself",
+            "ActionReference": "tth_Rebook_Flight",
+            "tth_Trip_Stage__c": "OnTrip",
+            "tth_Trip_Sub_Stage__c": "Experiencing Disruption",
+            "Category__c": "RebookFlight",
+            "Ranking__c": 1
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef19"
+            },
+            "Name": "Refund Request",
+            "Description": "Request a refund",
+            "AcceptanceLabel": "Yes please",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "tth_Refund_Request",
+            "tth_Trip_Stage__c": "PostTrip",
+            "tth_Trip_Sub_Stage__c": "Negative Sentiment"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef20"
+            },
+            "Name": "Seat Upgrade",
+            "Description": "Get Upgraded",
+            "AcceptanceLabel": "Yes please",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "tth_Seat_Upgrade",
+            "tth_Trip_Stage__c": "PreTrip",
+            "tth_Trip_Sub_Stage__c": "Has Future Booking"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef21"
+            },
+            "Name": "Post to Social",
+            "Description": "Talk to us online",
+            "AcceptanceLabel": "Sure!",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "tth_Suggest_Social_Post",
+            "tth_Trip_Stage__c": "PostTrip",
+            "tth_Trip_Sub_Stage__c": "Positive Sentiment"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef22"
+            },
+            "Name": "Create a Case",
+            "Description": "Let us know how we did",
+            "AcceptanceLabel": "Yes I have feedback",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "tth_Trip_Complaint_Compliment",
+            "tth_Trip_Stage__c": "PostTrip",
+            "tth_Trip_Sub_Stage__c": "Negative Sentiment"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef23"
+            },
+            "Name": "Trip Inspiration",
+            "Description": "Let us inspire your next adventure!",
+            "AcceptanceLabel": "Please Inspire me!",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "tth_Trip_Inspiration",
+            "tth_Trip_Stage__c": "PreTrip",
+            "tth_Trip_Sub_Stage__c": "No Future Booking"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef24"
+            },
+            "Name": "Pacific Catch",
+            "Description": "Hawaiian, Seafood, Vegetarian Friendly",
+            "AcceptanceLabel": "Make a reservation for me",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Book_Restaurant",
+            "Category__c": "Restaurant"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef25"
+            },
+            "Name": "Blue Bottle Cafe",
+            "Description": "Cafe, Vegetarian Friendly, Vegan Options",
+            "AcceptanceLabel": "Make a reservation for me",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Book_Restaurant",
+            "Category__c": "Restaurant"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef26"
+            },
+            "Name": "Eight Am",
+            "Description": "American, Cafe, Vegetarian Friendly",
+            "AcceptanceLabel": "Make a reservation for me",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Book_Restaurant",
+            "Category__c": "Restaurant"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef27"
+            },
+            "Name": "Hog Island Oyster Company",
+            "Description": "American, Seafood, Soups",
+            "AcceptanceLabel": "Make a reservation for me",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Book_Restaurant",
+            "Category__c": "Restaurant"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef28"
+            },
+            "Name": "Sail the Bay",
+            "Description": "Outdoor Activities, Tours, Boat Tours & Water Sports",
+            "AcceptanceLabel": "Sure, sounds like fun",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Book_Local_Attraction",
+            "Category__c": "Activities",
+            "tth_Location__c": "San Francisco"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef29"
+            },
+            "Name": "Alcatraz Cruises",
+            "Description": "Boat Tours & Water Sports, Tours, Outdoor Activities",
+            "AcceptanceLabel": "Sure, sounds like fun",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Book_Local_Attraction",
+            "Category__c": "Activities",
+            "tth_Location__c": "San Francisco"
+        },
+        {
+            "attributes": {
+                "type": "Recommendation",
+                "referenceId": "RecommendationRef30"
+            },
+            "Name": "Mountain Bike San Francisco",
+            "Description": "Outdoor Activities, Tours, More",
+            "AcceptanceLabel": "Sure, sounds like fun",
+            "RejectionLabel": "No thanks",
+            "ActionReference": "Book_Local_Attraction",
+            "Category__c": "Activities",
+            "tth_Location__c": "San Francisco"
+        }
+    ]
+}

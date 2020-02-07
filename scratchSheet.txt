@@ -2,3 +2,29 @@
 sfdx force:data:soql:query -u SDO -q "select external_ID__c, subject, Contact.FirstName, Contact.External_ID__c from Case where External_id__c != null AND Contact.FirstName = 'Lauren' Order by External_ID__c"
 
 sfdx force:data:soql:query -u SDO -q "SELECT CaseNumber, External_ID__c, Subject, Description FROM CASE where Contact.External_ID__c = 'PAccount.011' Order By External_id__c"
+
+
+sfdx force:data:soql:query -q "SELECT External_id__c, External_id__pc, FirstNAme, LastName FROM account where isPersonAccount=true" -u SDO2
+
+
+# Running Dataloader from Command Line
+Create a new key for encrypting a password:
+java -cp bin/dataloader/dataloader-46.0.0-uber.jar com.salesforce.dataloader.security.EncryptionUtil -k bin/dataloader/configs/login.key
+
+Encrypt the following password
+java -cp bin/dataloader/dataloader-46.0.0-uber.jar com.salesforce.dataloader.security.EncryptionUtil -e Demo1234 bin/dataloader/configs/login.key
+
+Put that resulting text in the config.properties file - sfdc.password and ensure you're referencing the right key file in there as well
+
+Run DataLoader in batch mode
+java -cp bin/dataloader/dataloader.jar -Dsalesforce.config.dir=bin/dataloader/configs com.salesforce.dataloader.process.ProcessRunner
+
+
+Run dataloader in batch mode passing in username
+java -cp bin/dataloader/dataloader.jar -Dsalesforce.config.dir=bin/dataloader/configs com.salesforce.dataloader.process.ProcessRunner sfdc.username=test-4edvlobvawhc@example.com
+
+
+sfdc.username= sfdc.password=
+
+
+java -cp bin/dataloader/dataloader.jar -Dsalesforce.config.dir=data/prod/config com.salesforce.dataloader.process.ProcessRunner sfdc.username=thido-master-1575939756@example.com sfdc.password=03e011bc1f76a2ad24337e09dbbcd1b912b2661fc1c74857b1780879f19da904 sfdc.endpoint=https://test.salesforce.com process.name=personAccountUpsertProcess

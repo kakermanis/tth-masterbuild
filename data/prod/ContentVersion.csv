@@ -1,0 +1,14 @@
+External_ID__c,Title,Description,PathOnClient,VersionData
+tthImage.001,EconomySeat1,Flight Economy Seat,data/prod/images/EconomySeat1.jpg,data/prod/images/EconomySeat1.jpg
+tthImage.002,EconomySeat2,Flight Economy Seat,data/prod/images/EconomySeat2.jpg,data/prod/images/EconomySeat2.jpg
+tthImage.003,EconomySeat3,Flight Economy Seat,data/prod/images/EconomySeat3.jpg,data/prod/images/EconomySeat3.jpg
+tthImage.004,EconomySeat4,Flight Economy Seat,data/prod/images/EconomySeat4.jpg,data/prod/images/EconomySeat4.jpg
+tthImage.005,Room1,Standard Hotel Room,data/prod/images/Room1.jpg,data/prod/images/Room1.jpg
+tthImage.006,Room2,Standard Hotel Room,data/prod/images/Room2.jpg,data/prod/images/Room2.jpg
+tthImage.007,Room3,Standard Hotel Room,data/prod/images/Room3.jpg,data/prod/images/Room3.jpg
+tthImage.008,Gym1,Hotel Gym,data/prod/images/Gym1.jpg,data/prod/images/Gym1.jpg
+tthImage.009,Pool1,Hotel Pool,data/prod/images/Pool1.jpg,data/prod/images/Pool1.jpg
+tthImage.010,Bathroom1,Standard Room Bathroom,data/prod/images/Bathroom1.jpg,data/prod/images/Bathroom1.jpg
+tthImage.011,BusinessSeat1,Flight Business Seat,data/prod/images/BusinessSeat1.jpg,data/prod/images/BusinessSeat1.jpg
+tthImage.012,BusinessSeat2,Flight Business Seat,data/prod/images/BusinessSeat2.jpg,data/prod/images/BusinessSeat2.jpg
+tthImage.013,BusinessSeat3,Flight Business Seat,data/prod/images/BusinessSeat3.jpg,data/prod/images/BusinessSeat3.jpg

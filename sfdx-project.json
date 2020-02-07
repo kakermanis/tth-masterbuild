@@ -1,11 +1,77 @@
 {
-  "packageDirectories": [
-    {
-      "path": "tth-",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "tth-master",
+            "default": true,
+            "dependencies": [
+                {
+                    "package": "IDO TTH Commons",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "IDO TTH Loyalty Datamodel",
+                    "versionNumber": "0.3.0.LATEST"
+                },
+                {
+                    "package": "IDO TTH Reservation/Booking Datamodel",
+                    "versionNumber": "0.6.0.LATEST"
+                },
+                {
+                    "package": "IDO TTH Traveler Base Datamodel",
+                    "versionNumber": "0.3.0.LATEST"
+                },
+                {
+                    "package": "IDO TTH Mock MC Connector",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "IDO TTH Demo Components",
+                    "versionNumber": "0.1.0.LATEST"
+                },
+                {
+                    "package": "IDO TTH NBA",
+                    "versionNumber": "0.4.0.LATEST"
+                },
+                {
+                    "package": "IDO TTH SDO Tool Extensions",
+                    "versionNumber": "0.6.0.LATEST"
+                },
+                {
+                    "package": "IDO TTH Guest 360",
+                    "versionNumber": "0.11.0.LATEST"
+                }
+            ],
+            "package": "IDO TTH Master Build",
+            "versionName": "Spring' 20-1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "47.0",
+    "packageAliases": {
+        "IDO TTH Commons": "0Ho0o000000CagRCAS",
+        "IDO TTH Traveler Base Datamodel": "0Ho0o000000GmpTCAS",
+        "IDO TTH Loyalty Datamodel": "0Ho0o000000GmpOCAS",
+        "IDO TTH Reservation/Booking Datamodel": "0Ho0o000000GmpxCAC",
+        "IDO TTH SDO Dependencies": "0Ho0o000000Gmq2CAC",
+        "IDO TTH SDO Tool Extensions": "0Ho0o000000GmqRCAS",
+        "IDO TTH Guest 360": "0Ho0o000000GmqMCAS",
+        "IDO TTH Mock MC Connector": "0Ho0o000000GmqbCAC",
+        "IDO TTH NBA": "0Ho0o000000GmqHCAS",
+        "IDO TTH Demo Components": "0Ho0o000000PB44CAG",
+        "IDO TTH Chatbot": "0Ho0o000000GmqCCAS",
+        "IDO TTH Chatbot - Latest": "04t0o000003JNaQAAW",
+        "IDO TTH Commons - Deployed": "04t0o000003fYqiAAE",
+        "IDO TTH Traveler Base Datamodel - Deployed": "04t0o000003JNYAAA4",
+        "IDO TTH Loyalty Datamodel - Deployed": "04t0o000003JNYFAA4",
+        "IDO TTH Reservation/Booking Datamodel - Deployed": "04t0o000003JNapAAG",
+        "IDO TTH SDO Tool Extensions - Deployed": "04t0o000003JNauAAG",
+        "IDO TTH Guest 360 - Deployed": "04t0o000003JNrOAAW",
+        "IDO TTH Mock MC Connector - Deployed": "04t0o000003fawAAAQ",
+        "IDO TTH Chatbot - Deployed": "04t0o000003JNfCAAW",
+        "IDO TTH Demo Components - Deployed": "04t0o000003JNY0AAO",
+        "IDO TTH NBA - Deployed": "04t0o000003JNrJAAW",
+        "IDO TTH Master Build": "0Ho0o000000PB6yCAG"
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "46.0"
 }

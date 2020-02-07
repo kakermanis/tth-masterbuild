@@ -77,3 +77,26 @@ echo 'Installing ContentVersion data...'
 echo '***************************'
 echo
 java -cp bin/dataloader/dataloader.jar -Dsalesforce.config.dir=data/prod/config com.salesforce.dataloader.process.ProcessRunner sfdc.username=$1 sfdc.password=$2 sfdc.endpoint=$3 process.name=contentVersionUpsertProcess
+
+echo
+echo '***************************'
+echo 'Installing Recommendation data...'
+echo '***************************'
+echo
+java -cp bin/dataloader/dataloader.jar -Dsalesforce.config.dir=data/prod/config com.salesforce.dataloader.process.ProcessRunner sfdc.username=$1 sfdc.password=$2 sfdc.endpoint=$3 process.name=recommendationUpsertProcess
+
+
+echo
+echo '***************************'
+echo 'Installing Suggested Booking data...'
+echo '***************************'
+echo
+java -cp bin/dataloader/dataloader.jar -Dsalesforce.config.dir=data/prod/config com.salesforce.dataloader.process.ProcessRunner sfdc.username=$1 sfdc.password=$2 sfdc.endpoint=$3 process.name=suggestedBookingUpsertProcess
+
+
+echo
+echo '***************************'
+echo 'Installing User data...'
+echo '***************************'
+echo
+java -cp bin/dataloader/dataloader.jar -Dsalesforce.config.dir=data/prod/config com.salesforce.dataloader.process.ProcessRunner sfdc.username=$1 sfdc.password=$2 sfdc.endpoint=$3 process.name=userUpsertProcess

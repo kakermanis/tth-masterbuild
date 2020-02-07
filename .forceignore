@@ -10,14 +10,3 @@ package.xml
 
 # LWC Jest
 **/__tests__/**
-
-# Push Ignores
-tth-/main/default/profiles/
-tth-/main/default/appMenus/AppSwitcher.appMenu-meta.xml
-tth-/main/default/flexipages/LightningService_UtilityBar.flexipage-meta.xml
-#tth-/main/default/objects/Account/*
-
-
-# Pull ignores
-AppSwitcher.AppMenu
-Admin.Profile

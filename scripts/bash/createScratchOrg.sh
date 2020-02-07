@@ -5,6 +5,7 @@ echo 'Creating a fresh Scratch org called '$1' with username '$2
 echo '**************************************************************'
 echo
 sfdx force:org:create -s -f config/project-scratch-def.json -s username=$2 -a $1
+#sfdx force:org:create -s -f config/snapshot-scratch-def.json -s username=$2 -a $1
 #sfdx force:org:create -f config/project-scratch-def.json -a $@
 
 echo

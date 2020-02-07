@@ -1,0 +1,23 @@
+#Mapping values
+#Tue Dec 10 12:40:30 AEDT 2019
+tth_Travel_Class__c=tth_Travel_Class__c
+tth_Allocated_Room__c=tth_Allocated_Room__c
+External_ID__c=External_ID__c
+tth_Booking_End__c=tth_Booking_End__c
+tth_Status__c=tth_Status__c
+tth_Location__c=tth_Location__c
+tth_Flight_Number__c=tth_Flight_Number__c
+tth_Booking_Start__c=tth_Booking_Start__c
+tth_Add_ons__c=tth_Add_ons__c
+tth_Booking_Type__c=tth_Booking_Type__c
+tth_Allocated_Seat__c=tth_Allocated_Seat__c
+tth_Requests__c=tth_Requests__c
+tth_Change_Summary__c=tth_Change_Summary__c
+tth_Room_Type__c=tth_Room_Type__c
+tth_Amenities_pl__c=tth_Amenities_pl__c
+tth_Fare_Basis_Code__c=tth_Fare_Basis_Code__c
+tth_Related_Booking__c=tth_Related_Booking__r\:External_ID__c
+tth_Time__c=tth_Time__c
+tth_Days_Ago__c=tth_Days_Ago__c
+Number_of_Days__c=Number_of_Days__c
+tth_Rebooking_Required__c=tth_Rebooking_Required__c

@@ -4,7 +4,7 @@
     <bean id="personAccountUpsertProcess"
           class="com.salesforce.dataloader.process.ProcessRunner"
           singleton="false">
-        <description>Account Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <description>PersonAccount Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
         <property name="name" value="tth_PersonAccountUpsertProcess"/>
         <property name="configOverrideMap">
             <map>
@@ -14,6 +14,7 @@
               -->
                 <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthPersonAccountUpsertSuccess.csv"/>-->
                 <entry key="process.outputError" value="data/prod/dataLoadResults/tthPersonAccountUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
                 <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
                 <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
                 <entry key="sfdc.timeoutSecs" value="600"/>
@@ -25,7 +26,7 @@
                 <entry key="dataAccess.name" value="data/prod/PersonAccounts.csv"/>
                 <entry key="dataAccess.type" value="csvRead"/>
                 <entry key="process.enableLastRunOutput" value="false"/>
-                <entry key="process.lastRunOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
             </map>
         </property>
     </bean>
@@ -43,6 +44,7 @@
               -->
                 <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthAccountUpsertSuccess.csv"/>-->
                 <entry key="process.outputError" value="data/prod/dataLoadResults/tthAccountUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
                 <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
                 <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
                 <entry key="sfdc.timeoutSecs" value="600"/>
@@ -54,7 +56,7 @@
                 <entry key="dataAccess.name" value="data/prod/tth_Account.csv"/>
                 <entry key="dataAccess.type" value="csvRead"/>
                 <entry key="process.enableLastRunOutput" value="false"/>
-                <entry key="process.lastRunOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
             </map>
         </property>
     </bean>
@@ -72,6 +74,7 @@
               -->
                 <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthContactUpsertSuccess.csv"/>-->
                 <entry key="process.outputError" value="data/prod/dataLoadResults/tthContactUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
                 <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
                 <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
                 <entry key="sfdc.timeoutSecs" value="600"/>
@@ -83,7 +86,7 @@
                 <entry key="dataAccess.name" value="data/prod/tth_Contact.csv"/>
                 <entry key="dataAccess.type" value="csvRead"/>
                 <entry key="process.enableLastRunOutput" value="false"/>
-                <entry key="process.lastRunOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
             </map>
         </property>
     </bean>
@@ -101,6 +104,7 @@
               -->
                 <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthTripsUpsertSuccess.csv"/>-->
                 <entry key="process.outputError" value="data/prod/dataLoadResults/tthTripsUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
                 <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
                 <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
                 <entry key="sfdc.timeoutSecs" value="600"/>
@@ -115,7 +119,7 @@
                 <entry key="dataAccess.name" value="data/prod/tth_Trips__c.csv"/>
                 <entry key="dataAccess.type" value="csvRead"/>
                 <entry key="process.enableLastRunOutput" value="false"/>
-                <entry key="process.lastRunOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
             </map>
         </property>
     </bean>
@@ -133,6 +137,7 @@
               -->
                 <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthBookingUpsertSuccess.csv"/>-->
                 <entry key="process.outputError" value="data/prod/dataLoadResults/tthBookingUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
                 <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
                 <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
                 <entry key="sfdc.timeoutSecs" value="600"/>
@@ -147,7 +152,7 @@
                 <entry key="dataAccess.name" value="data/prod/tth_Bookings__c.csv"/>
                 <entry key="dataAccess.type" value="csvRead"/>
                 <entry key="process.enableLastRunOutput" value="false"/>
-                <entry key="process.lastRunOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
             </map>
         </property>
     </bean>
@@ -166,6 +171,7 @@
               -->
                 <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthPartyUpsertSuccess.csv"/>-->
                 <entry key="process.outputError" value="data/prod/dataLoadResults/tthPartyUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
                 <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
                 <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
                 <entry key="sfdc.timeoutSecs" value="600"/>
@@ -180,7 +186,7 @@
                 <entry key="dataAccess.name" value="data/prod/tth_Party__c.csv"/>
                 <entry key="dataAccess.type" value="csvRead"/>
                 <entry key="process.enableLastRunOutput" value="false"/>
-                <entry key="process.lastRunOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
             </map>
         </property>
     </bean>
@@ -198,6 +204,7 @@
               -->
                 <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthLoyaltyUpsertSuccess.csv"/>-->
                 <entry key="process.outputError" value="data/prod/dataLoadResults/tthLoyaltyUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
                 <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
                 <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
                 <entry key="sfdc.timeoutSecs" value="600"/>
@@ -212,7 +219,7 @@
                 <entry key="dataAccess.name" value="data/prod/tth_Loyalty__c.csv"/>
                 <entry key="dataAccess.type" value="csvRead"/>
                 <entry key="process.enableLastRunOutput" value="false"/>
-                <entry key="process.lastRunOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
             </map>
         </property>
     </bean>
@@ -230,6 +237,7 @@
               -->
                 <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthBaggageUpsertSuccess.csv"/>-->
                 <entry key="process.outputError" value="data/prod/dataLoadResults/tthBaggageUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
                 <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
                 <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
                 <entry key="sfdc.timeoutSecs" value="600"/>
@@ -244,7 +252,7 @@
                 <entry key="dataAccess.name" value="data/prod/tth_Baggage__c.csv"/>
                 <entry key="dataAccess.type" value="csvRead"/>
                 <entry key="process.enableLastRunOutput" value="false"/>
-                <entry key="process.lastRunOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
             </map>
         </property>
     </bean>
@@ -262,6 +270,7 @@
               -->
                 <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthcustomActivitiesUpsertSuccess.csv"/>-->
                 <entry key="process.outputError" value="data/prod/dataLoadResults/tthcustomActivitiesUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
                 <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
                 <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
                 <entry key="sfdc.timeoutSecs" value="600"/>
@@ -276,7 +285,7 @@
                 <entry key="dataAccess.name" value="data/prod/tth_Custom_Activities__c.csv"/>
                 <entry key="dataAccess.type" value="csvRead"/>
                 <entry key="process.enableLastRunOutput" value="false"/>
-                <entry key="process.lastRunOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
             </map>
         </property>
     </bean>
@@ -294,6 +303,7 @@
               -->
                 <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthCaseUpsertSuccess.csv"/>-->
                 <entry key="process.outputError" value="data/prod/dataLoadResults/tthCaseUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
                 <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
                 <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
                 <entry key="sfdc.timeoutSecs" value="600"/>
@@ -308,7 +318,7 @@
                 <entry key="dataAccess.name" value="data/prod/tth_Case.csv"/>
                 <entry key="dataAccess.type" value="csvRead"/>
                 <entry key="process.enableLastRunOutput" value="false"/>
-                <entry key="process.lastRunOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
             </map>
         </property>
     </bean>
@@ -326,6 +336,7 @@
               -->
                 <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthCampaignUpsertSuccess.csv"/>-->
                 <entry key="process.outputError" value="data/prod/dataLoadResults/tthCampaignUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
                 <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
                 <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
                 <entry key="sfdc.timeoutSecs" value="600"/>
@@ -340,7 +351,7 @@
                 <entry key="dataAccess.name" value="data/prod/tth_Campaign.csv"/>
                 <entry key="dataAccess.type" value="csvRead"/>
                 <entry key="process.enableLastRunOutput" value="false"/>
-                <entry key="process.lastRunOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
             </map>
         </property>
     </bean>
@@ -358,6 +369,7 @@
               -->
                 <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthContentVersionUpsertSuccess.csv"/>-->
                 <entry key="process.outputError" value="data/prod/dataLoadResults/tthContentVersionUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
                 <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
                 <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
                 <entry key="sfdc.timeoutSecs" value="600"/>
@@ -372,7 +384,98 @@
                 <entry key="dataAccess.name" value="data/prod/ContentVersion.csv"/>
                 <entry key="dataAccess.type" value="csvRead"/>
                 <entry key="process.enableLastRunOutput" value="false"/>
-                <entry key="process.lastRunOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="suggestedBookingUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>Suggested Booking Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_SuggestedBookingUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthPersonAccountUpsertSuccess.csv"/>-->
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthSuggestedBookingUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="tth_Suggested_Booking__c"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_Suggested_Booking.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/tth_Suggested_Booking__c.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.enableLastRunOutput" value="false"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="recommendationUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>Suggested Booking Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_RecommendationUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthPersonAccountUpsertSuccess.csv"/>-->
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthRecommendationUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="Recommendation"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_Recommendation.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/recommendations.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.enableLastRunOutput" value="false"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
+            </map>
+        </property>
+    </bean>
+
+
+    <bean id="userUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>User Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_UserUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <!--<entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthPersonAccountUpsertSuccess.csv"/>-->
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthRecommendationUpsertErrors.csv"/>
+                <entry key="process.enableExtractStatusOutput" value="false"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="User"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/User.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/User.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.enableLastRunOutput" value="false"/>
+                <entry key="process.lastRunOutputDirectory" value="data/prod/dataLoadResults"/>
             </map>
         </property>
     </bean>

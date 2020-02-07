@@ -39,6 +39,7 @@
 }, {
   "sobject": "tth_Booking__c",
   "resolveRefs": true,
+  "saveRefs": true,
   "files": [
     "tth_Booking__cs.json"
   ]
@@ -50,4 +51,16 @@
     "traveler-data-Custom_Activity__c.json",
     "Custom_Activity__cs.json"
   ]
-}]
+},{
+  "sobject":"Recommendation",
+  "files": [
+    "Recommendation.json"
+  ]
+  },{
+    "sobject":"tth_Suggested_Booking__c",
+    "resolveRefs": true,
+    "files": [
+      "tth_Suggested_Booking__c.json"
+    ]
+    }
+]

@@ -1,0 +1,4 @@
+External_ID__c,tth_Booking_Type__c,tth_Related_Booking__c,Number_of_Days__c,tth_Add_ons__c,tth_Allocated_Room__c,tth_Allocated_Seat__c,tth_Amenities_Icon__c,tth_Amenities_pl__c,tth_Booking_End__c,tth_Booking_Start__c,tth_Change_Summary__c,tth_Days_Ago__c,tth_Fare_Basis_Code__c,tth_Flight_Number__c,tth_Location__c,tth_Rebooking_Required__c,tth_Requests__c,tth_Room_Type__c,tth_Status__c,tth_Time__c,tth_Travel_Class__c
+tthSuggested.001,Flight,tthBooking.003,0,,,21A,,,12/13/2019,12/9/2019,Departing next day 0.5 hours later,0,K,CX619,,FALSE,,,Draft,09:10am,Economy
+tthSuggested.002,Flight,tthBooking.003,0,,,10B,,,12/13/2019,12/9/2019,Departing next day 6 hours later,0,K,CX751,,FALSE,,,Draft,2:25pm,Economy
+tthSuggested.003,Flight,tthBooking.003,0,,,14F,,,12/13/2019,12/10/2019,Departing next day 11.5 hours later,0,K,CX709,,FALSE,,,Draft,10:00pm,Economy

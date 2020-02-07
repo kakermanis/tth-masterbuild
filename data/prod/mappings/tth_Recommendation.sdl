@@ -1,0 +1,22 @@
+#Mapping values
+#Tue Dec 10 01:38:30 AEDT 2019
+Description=Description
+tth_Travel_Geography__c=tth_Travel_Geography__c
+tth_Travel_Vibe__c=tth_Travel_Vibe__c
+External_ID__c=External_ID__c
+tth_Travel_Level__c=tth_Travel_Level__c
+tth_Address__c=tth_Address__c
+Name=Name
+tth_Nature_of_Trip__c=tth_Nature_of_Trip__c
+tth_Location__c=tth_Location__c
+tth_Travel_Location__c=tth_Travel_Location__c
+tth_Travel_Weather__c=tth_Travel_Weather__c
+tth_Travel_Budget__c=tth_Travel_Budget__c
+RejectionLabel=RejectionLabel
+tth_Travel_Activities__c=tth_Travel_Activities__c
+ActionReference=ActionReference
+tth_Trip_Sub_Stage__c=tth_Trip_Sub_Stage__c
+tth_Trip_Stage__c=tth_Trip_Stage__c
+Ranking__c=Ranking__c
+Category__c=Category__c
+AcceptanceLabel=AcceptanceLabel

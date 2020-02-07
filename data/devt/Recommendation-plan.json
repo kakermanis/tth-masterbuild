@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Recommendation",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Recommendations.json"
+        ]
+    }
+]

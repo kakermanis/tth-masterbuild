@@ -1,0 +1,368 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+    <bean id="personAccountUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>Account Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_PersonAccountUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthPersonAccountUpsertSuccess.csv"/>
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthPersonAccountUpsertErrors.csv"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="Account"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_PersonAccount.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/PersonAccounts.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.initialLastRunDate" value="2006-12-01T00:00:00.000-0800"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="accountUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>Account Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_AccountUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthAccountUpsertSuccess.csv"/>
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthAccountUpsertErrors.csv"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="Account"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_Account.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/tth_Account.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.initialLastRunDate" value="2006-12-01T00:00:00.000-0800"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="contactUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>contact Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_ContactUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthContactUpsertSuccess.csv"/>
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthContactUpsertErrors.csv"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="Contact"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_Contact.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/tth_Contact.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.initialLastRunDate" value="2006-12-01T00:00:00.000-0800"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="tripUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>Trip Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_TripUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthTripsUpsertSuccess.csv"/>
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthTripsUpsertErrors.csv"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="tth_Trip__c"/>
+                <entry key="sfdc.useBulkApi" value="false"/>
+                <entry key="sfdc.bulkApiSerialMode" value="true"/>
+                <entry key="sfdc.insertNulls" value="false"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_Trip.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/tth_Trips__c.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.initialLastRunDate" value="2006-12-01T00:00:00.000-0800"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="bookingUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>Booking Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_bookingUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthBookingUpsertSuccess.csv"/>
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthBookingUpsertErrors.csv"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="tth_Booking__c"/>
+                <entry key="sfdc.useBulkApi" value="false"/>
+                <entry key="sfdc.bulkApiSerialMode" value="true"/>
+                <entry key="sfdc.insertNulls" value="false"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_Booking.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/tth_Bookings__c.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.initialLastRunDate" value="2006-12-01T00:00:00.000-0800"/>
+            </map>
+        </property>
+    </bean>
+
+
+    <bean id="partyUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>Booking Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_PartyUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthPartyUpsertSuccess.csv"/>
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthPartyUpsertErrors.csv"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="tth_Party__c"/>
+                <entry key="sfdc.useBulkApi" value="false"/>
+                <entry key="sfdc.bulkApiSerialMode" value="true"/>
+                <entry key="sfdc.insertNulls" value="false"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_Party.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/tth_Party__c.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.initialLastRunDate" value="2006-12-01T00:00:00.000-0800"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="loyaltyUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>Booking Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_loyaltyUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthLoyaltyUpsertSuccess.csv"/>
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthLoyaltyUpsertErrors.csv"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="tth_Loyalty_Event__c"/>
+                <entry key="sfdc.useBulkApi" value="false"/>
+                <entry key="sfdc.bulkApiSerialMode" value="true"/>
+                <entry key="sfdc.insertNulls" value="false"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_Loyalty.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/tth_Loyalty__c.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.initialLastRunDate" value="2006-12-01T00:00:00.000-0800"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="baggageUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>baggage Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_baggageUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthBaggageUpsertSuccess.csv"/>
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthBaggageUpsertErrors.csv"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="tth_Baggage__c"/>
+                <entry key="sfdc.useBulkApi" value="false"/>
+                <entry key="sfdc.bulkApiSerialMode" value="true"/>
+                <entry key="sfdc.insertNulls" value="false"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_Baggage.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/tth_Baggage__c.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.initialLastRunDate" value="2006-12-01T00:00:00.000-0800"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="customActivitiesUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>customActivities Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_customActivitiesUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthcustomActivitiesUpsertSuccess.csv"/>
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthcustomActivitiesUpsertErrors.csv"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="Custom_Activity__c"/>
+                <entry key="sfdc.useBulkApi" value="false"/>
+                <entry key="sfdc.bulkApiSerialMode" value="true"/>
+                <entry key="sfdc.insertNulls" value="false"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_Custom_Activities.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/tth_Custom_Activities__c.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.initialLastRunDate" value="2006-12-01T00:00:00.000-0800"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="caseUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>customActivities Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_caseUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthCaseUpsertSuccess.csv"/>
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthCaseUpsertErrors.csv"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="Case"/>
+                <entry key="sfdc.useBulkApi" value="false"/>
+                <entry key="sfdc.bulkApiSerialMode" value="true"/>
+                <entry key="sfdc.insertNulls" value="false"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_Case.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/tth_Case.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.initialLastRunDate" value="2006-12-01T00:00:00.000-0800"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="campaignUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>campaign Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_campaignUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthCampaignUpsertSuccess.csv"/>
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthCampaignUpsertErrors.csv"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="Campaign"/>
+                <entry key="sfdc.useBulkApi" value="false"/>
+                <entry key="sfdc.bulkApiSerialMode" value="true"/>
+                <entry key="sfdc.insertNulls" value="false"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_Campaign.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/tth_Campaign.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.initialLastRunDate" value="2006-12-01T00:00:00.000-0800"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="contentVersionUpsertProcess"
+          class="com.salesforce.dataloader.process.ProcessRunner"
+          singleton="false">
+        <description>contentVersion Upsert job gets the Customer record updates from a CSV file and uploads them to salesforce using 'upsert'.</description>
+        <property name="name" value="tth_ContentVersionUpsertProcess"/>
+        <property name="configOverrideMap">
+            <map>
+              <entry key="sfdc.endpoint" value="https://test.salesforce.com"/>
+              <!-- When installing to PROD uncomment this one
+                <entry key="sfdc.endpoint" value="https://login.salesforce.com"/>
+              -->
+                <entry key="process.outputSuccess" value="data/prod/dataLoadResults/tthContentVersionUpsertSuccess.csv"/>
+                <entry key="process.outputError" value="data/prod/dataLoadResults/tthContentVersionUpsertErrors.csv"/>
+                <entry key="process.statusOutputDirectory" value="bin/dataloader/outputs"/>
+                <entry key="process.encryptionKeyFile" value="bin/dataloader/configs/login.key"/>
+                <entry key="sfdc.timeoutSecs" value="600"/>
+                <entry key="sfdc.loadBatchSize" value="200"/>
+                <entry key="sfdc.externalIdField" value="External_ID__c"/>
+                <entry key="sfdc.entity" value="ContentVersion"/>
+                <entry key="sfdc.useBulkApi" value="false"/>
+                <entry key="sfdc.bulkApiSerialMode" value="true"/>
+                <entry key="sfdc.insertNulls" value="false"/>
+                <entry key="process.operation" value="upsert"/>
+                <entry key="process.mappingFile" value="data/prod/mappings/tth_ContentVersion.sdl"/>
+                <entry key="dataAccess.name" value="data/prod/ContentVersion.csv"/>
+                <entry key="dataAccess.type" value="csvRead"/>
+                <entry key="process.initialLastRunDate" value="2006-12-01T00:00:00.000-0800"/>
+            </map>
+        </property>
+    </bean>
+
+</beans>

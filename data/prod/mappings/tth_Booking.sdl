@@ -15,3 +15,6 @@ TTH_AMENITIES_PL__C=tth_Amenities_pl__c
 TTH_STATUS__C=tth_Status__c
 TTH_TRAVEL_CLASS__C=tth_Travel_Class__c
 TTH_ALLOCATED_ROOM__C=tth_Allocated_Room__c
+tth_Location__c=tth_Location__c
+tth_Rebooking_Required__c=tth_Rebooking_Required__c
+tth_Time__c=tth_Time__c

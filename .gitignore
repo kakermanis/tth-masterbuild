@@ -12,6 +12,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+#logs/buildTimes.csv
 
 # Dependency directories
 node_modules/
@@ -28,13 +29,10 @@ ehthumbs.db
 [Dd]esktop.ini
 $RECYCLE.BIN/
 
-#Other SFDX local stuff to not check in - mostly because they'll be covered by other upstream packages
-tth-/main/default/profiles/
-tth-/main/default/appMenus/AppSwitcher.appMenu-meta.xml
-tth-/main/default/flexipages/LightningService_UtilityBar.flexipage-meta.xml
-#tth-/main/default/objects/Account/*
-#tth-/main/default/workflows/
-#tth-/main/default/lwc/
-#tth-/main/default/layouts
-#tth-/main/default/tabs
-#tth-/main/default/flexipages
+
+
+
+data/prod/dataLoadResults/*.csv
+bin/dataloader/outputs/*.csv
+logs/*.csv
+*.key

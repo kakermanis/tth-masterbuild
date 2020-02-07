@@ -1,0 +1,64 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "tth_Suggested_Booking__c",
+                "referenceId": "tth_Suggested_Booking__cRef1"
+            },
+            "Number_of_Days__c": 0,
+            "tth_Allocated_Seat__c": "21A",
+            "tth_Booking_End__c": "2019-12-13",
+            "tth_Booking_Start__c": "2019-12-09",
+            "tth_Days_Ago__c": 0,
+            "tth_Fare_Basis_Code__c": "K",
+            "tth_Flight_Number__c": "GG987",
+            "tth_Rebooking_Required__c": false,
+            "tth_Status__c": "Draft",
+            "tth_Time__c": "09:30am",
+            "tth_Booking_Type__c":"Flight",
+            "tth_Change_Summary__c":"Departing 1.5 hours later",
+            "tth_Travel_Class__c": "Economy",
+            "tth_Related_Booking__c": "@BookingRef2"
+        },
+        {
+            "attributes": {
+                "type": "tth_Suggested_Booking__c",
+                "referenceId": "tth_Suggested_Booking__cRef2"
+            },
+            "Number_of_Days__c": 0,
+            "tth_Allocated_Seat__c": "10B",
+            "tth_Booking_End__c": "2019-12-13",
+            "tth_Booking_Start__c": "2019-12-09",
+            "tth_Days_Ago__c": 0,
+            "tth_Fare_Basis_Code__c": "K",
+            "tth_Flight_Number__c": "BB1234",
+            "tth_Rebooking_Required__c": false,
+            "tth_Status__c": "Draft",
+            "tth_Time__c": "10:30am",
+            "tth_Booking_Type__c":"Flight",
+            "tth_Change_Summary__c":"Departing 2.5 hours later",
+            "tth_Travel_Class__c": "Economy",
+            "tth_Related_Booking__c": "@BookingRef2"
+        },
+        {
+            "attributes": {
+                "type": "tth_Suggested_Booking__c",
+                "referenceId": "tth_Suggested_Booking__cRef3"
+            },
+            "Number_of_Days__c": 0,
+            "tth_Allocated_Seat__c": "14F",
+            "tth_Booking_End__c": "2019-12-13",
+            "tth_Booking_Start__c": "2019-12-10",
+            "tth_Days_Ago__c": 0,
+            "tth_Fare_Basis_Code__c": "K",
+            "tth_Flight_Number__c": "CC4567",
+            "tth_Rebooking_Required__c": false,
+            "tth_Status__c": "Draft",
+            "tth_Time__c": "11:45am",
+            "tth_Booking_Type__c":"Flight",
+            "tth_Change_Summary__c":"Departing next day",
+            "tth_Travel_Class__c": "Economy",
+            "tth_Related_Booking__c": "@BookingRef2"
+        }
+    ]
+}

@@ -25,6 +25,8 @@ permSetNames.add('tth_Hospitality_Preference_fields');
 permSetNames.add('tth_Airline_Preference_fields');
 permSetNames.add('TTH_SDO_Tools_Extensions');
 permSetNames.add('tth_Customer_360_Features');
+permSetNames.add('tth_NBA_Permissions');
+permSetNames.add('TTH_Bot_Fields');
 
 //List of Profiles to apply all above perm sets to
 profileNames.add('System Administrator');

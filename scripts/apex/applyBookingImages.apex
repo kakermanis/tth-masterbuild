@@ -54,32 +54,36 @@ try {
   images = null;
 }
 
-if (hotelBookings != null) {
-  for (tth_Booking__c curBooking : hotelBookings) {
-    for(String curImageName : stdHotelRoomImageNames){
-        ContentDocument contentDoc = (ContentDocument)images.get(curImageName);
-        docLinks.add( new ContentDocumentLink(ContentDocumentID=contentDoc.ID , LinkedEntityId=curBooking.ID, ShareType='V') );
+
+
+if (images != null) {
+  if (hotelBookings != null) {
+    for (tth_Booking__c curBooking : hotelBookings) {
+      for(String curImageName : stdHotelRoomImageNames){
+          ContentDocument contentDoc = (ContentDocument)images.get(curImageName);
+          docLinks.add( new ContentDocumentLink(ContentDocumentID=contentDoc.ID , LinkedEntityId=curBooking.ID, ShareType='V') );
+      }
     }
   }
-}
 
-if (econFlights != null) {
-  for (tth_Booking__c curBooking : econFlights) {
-    for(String curImageName : econFlightImageNames){
-        ContentDocument contentDoc = (ContentDocument)images.get(curImageName);
-        docLinks.add( new ContentDocumentLink(ContentDocumentID=contentDoc.ID , LinkedEntityId=curBooking.ID, ShareType='V') );
+  if (econFlights != null) {
+    for (tth_Booking__c curBooking : econFlights) {
+      for(String curImageName : econFlightImageNames){
+          ContentDocument contentDoc = (ContentDocument)images.get(curImageName);
+          docLinks.add( new ContentDocumentLink(ContentDocumentID=contentDoc.ID , LinkedEntityId=curBooking.ID, ShareType='V') );
+      }
     }
   }
-}
 
-if (firstClassFlights != null) {
-  for (tth_Booking__c curBooking : firstClassFlights) {
-    for(String curImageName : firstClassFlightImageNames){
-        ContentDocument contentDoc = (ContentDocument)images.get(curImageName);
-        docLinks.add( new ContentDocumentLink(ContentDocumentID=contentDoc.ID , LinkedEntityId=curBooking.ID, ShareType='V') );
+  if (firstClassFlights != null) {
+    for (tth_Booking__c curBooking : firstClassFlights) {
+      for(String curImageName : firstClassFlightImageNames){
+          ContentDocument contentDoc = (ContentDocument)images.get(curImageName);
+          docLinks.add( new ContentDocumentLink(ContentDocumentID=contentDoc.ID , LinkedEntityId=curBooking.ID, ShareType='V') );
+      }
     }
   }
-}
 
-System.debug('About to create ' + docLinks.size() + ' links between bookings and images...');
-Database.insert(docLinks, false);
+  System.debug('About to create ' + docLinks.size() + ' links between bookings and images...');
+  Database.insert(docLinks, false);
+}

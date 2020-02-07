@@ -1,0 +1,20 @@
+Campaign,Name,Type,Status,ExpectedRevenue,BudgetedCost,ActualCost,ExpectedResponse,NumberSent,Description
+Campaign.017,Telemarketing Campaign,Direct Marketing,Completed,20000,10700,11630,0,0,Generate opportunities from direct outreach to cold prospects and inactive customers.
+Campaign.005,Invitation to Global Wanderer Conference,Email,Completed,20000,10000,15000,5,15000,Campaign designed to drive attendance at our Annual Customer Event.
+Campaign.013,Referral Program Launch,Email,In Progress,100000,35000,33000,0,18575,Email campaign encouraging referrals from current customers by providing discounts and incentives.
+Campaign.016,Nurture Marketing Campaign,Email,Planned,30000,12500,15000,0,0,Nurture early-stage leads over time until they indicate they are ready to engage.
+Campaign.018,All Email Marketing,Email,In Progress,,5000,,5,2500,Parent Campaign for all Email Marketing
+Campaign.001,Industry Tradeshow,Event,In Progress,50000,35000,26700,5,1000,Drive awareness and leads at the annual industry tradeshow.
+Campaign.007,Annual Traveler Expo Conference,Event,Planned,130000,65000,54000,0,100000,"Our annual event to bring our customers together, educate and engage them, and drive additional business."
+Campaign.012,Tropical Inspirations - Lunch Event,Event,Completed,20000,15500,15300,0,0,Tropical themed lunch with special guest speaker to raise awareness and drive deeper customer engagement.
+Campaign.014,All Event Marketing,Event,In Progress,,0,,0,0,Parent Campaign for all Events and Tradeshows.
+Campaign.019,Regional Field Marketing,Event,Planned,50000,36000,31400,0,0,"Focused, regional events for targeted accounts and opportunities. Includes dinners, networking events, golf outings and professional sports games."
+Campaign.006,All Social Media Marketing,Social Media,In Progress,,50000,,0,0,Parent Campaign for Social Media Marketing
+Campaign.009,Twitter Inbound Campaign,Social Media,Planned,20000,12000,11400,0,0,Engage customers who tweet our company's official Twitter handle.
+Campaign.010,Twitter Social Listening and Engagment,Social Media,In Progress,60000,35000,31250,0,0,Identify leads by monitoring popular industry hashtags and our competitors' twitter handles for unhappy customers who can be converted.
+Campaign.011,Facebook Advertising,Social Media,In Progress,30000,10000,20500,0,0,Generate leads from Facebook ads which drive leads to our company's public Facebook page.
+Campaign.002,Industry Websites Advertising,Web Marketing,In Progress,110000,55000,75000,5,1000,Sponsored ads on industry websites to drive traffic to our own.
+Campaign.003,Web-to-Lead Campaign,Web Marketing,Completed,40000,20000,21000,0,0,Follow up with customers who fill out a web-to-lead form to access materials on our website.
+Campaign.004,Google Adwords,Web Marketing,In Progress,20000,10000,8300,0,100,Google AdWords campaign to drive new leads to our public website.
+Campaign.008,Travel Tip n Tricks Webinar,Web Marketing,Completed,30000,15000,17850,0,50,"Webinar to establish ourselves as experts in the field, attract new prospects and more deeply engage customers."
+Campaign.015,All Web Marketing,Web Marketing,In Progress,,0,,0,0,Parent Campaign for Web Marketing
